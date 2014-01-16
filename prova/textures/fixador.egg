@@ -1,0 +1,115 @@
+<Comment> {
+  "egg-texture-cards -o fixador.egg -fps 40 fixadorfr1.png fixadorfr2.png fixadorfr3.png fixadorfr4.png fixadorfr5.png fixadorfr6.png fixadorfr7.png fixadorfr8.png fixadorfr9.png"
+}
+<Texture> fixadorfr9 {
+  fixadorfr9.png
+}
+<Texture> fixadorfr8 {
+  fixadorfr8.png
+}
+<Texture> fixadorfr7 {
+  fixadorfr7.png
+}
+<Texture> fixadorfr6 {
+  fixadorfr6.png
+}
+<Texture> fixadorfr5 {
+  fixadorfr5.png
+}
+<Texture> fixadorfr4 {
+  fixadorfr4.png
+}
+<Texture> fixadorfr3 {
+  fixadorfr3.png
+}
+<Texture> fixadorfr2 {
+  fixadorfr2.png
+}
+<Texture> fixadorfr1 {
+  fixadorfr1.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 40 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> fixadorfr1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr6 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr6 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr7 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr7 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr8 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr8 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> fixadorfr9 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { fixadorfr9 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

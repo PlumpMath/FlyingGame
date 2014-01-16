@@ -1,0 +1,75 @@
+<Comment> {
+  "egg-texture-cards -o expbala.egg -fps 25 expbala1.png expbala2.png expbala3.png expbala4.png expbala5.png"
+}
+<Texture> expbala5 {
+  expbala5.png
+}
+<Texture> expbala4 {
+  expbala4.png
+}
+<Texture> expbala3 {
+  expbala3.png
+}
+<Texture> expbala2 {
+  expbala2.png
+}
+<Texture> expbala1 {
+  expbala1.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 25 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -2. 2. 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -2. -2. 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      2. -2. 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      2. 2. 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> expbala1 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { expbala1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> expbala2 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { expbala2 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> expbala3 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { expbala3 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> expbala4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { expbala4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> expbala5 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { expbala5 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}
